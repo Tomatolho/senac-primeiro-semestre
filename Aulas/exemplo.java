@@ -2,7 +2,7 @@ package Aulas;
 import java.util.Scanner;
 
 public class exemplo {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Listar os 5 livros favoritos");
@@ -29,6 +29,7 @@ public class exemplo {
         System.out.println("3. " + livro3);
         System.out.println("4. " + livro4);
         System.out.println("5. " + livro5);
-    }
     
+        entrada.close();
+    }
 }

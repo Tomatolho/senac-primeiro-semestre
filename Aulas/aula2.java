@@ -1,6 +1,6 @@
 package Aulas;
 public class aula2 {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         float n1 = 3.7f;
         float n2 = 8.4f;
 
