@@ -5,7 +5,7 @@ public class projetoIntegrador {
     Scanner entry = new Scanner(System.in);
 
     
-    int ang = ;
+    int ang = 30 ;
     
     }
 }

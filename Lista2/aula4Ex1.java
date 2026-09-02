@@ -9,6 +9,7 @@ public class aula4Ex1 {
 		
 		System.out.print("Type your age");
 		Integer age = entry.nextInt();
-		System.out.printf(age);
+		System.out.println(age);
+		entry.close();
 	}
 }
