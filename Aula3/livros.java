@@ -1,4 +1,4 @@
-package Aulas;
+package Aula3;
 public class livros {
     public static void main(String[] args) {
         System.out.println("Livros favoritos:");

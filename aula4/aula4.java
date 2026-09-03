@@ -10,5 +10,6 @@ public class aula4 {
     Integer n1 = entry.nextInt();
     
     System.out.print(n1);
+    entry.close();
     }
 }

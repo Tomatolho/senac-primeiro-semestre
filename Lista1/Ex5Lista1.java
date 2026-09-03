@@ -1,7 +1,8 @@
+//Thomas Altman Souza
 package Lista1;
+
 public class Ex5Lista1 {
-    public static void main(String[] args) {
-    
+    public static void main(String[] args) {   
         String name = "Thomas";
         int age = 23;
         

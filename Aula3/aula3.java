@@ -1,3 +1,4 @@
+package Aula3;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.Scanner;
 
