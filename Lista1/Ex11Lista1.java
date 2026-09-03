@@ -1,18 +1,23 @@
 //Thomas Altman Souza
 package Lista1;
 
+import java.util.Scanner;
+
 public class Ex11Lista1 {
     public static void main(String[] args) {
-        boolean r1 = ((120 - 30) == Math.pow(3.0,30.0)); 
-        System.out.println("Resultado: " + r1);
+        Scanner entry = new Scanner(System.in);
+        
+        System.out.print("Ano em que nasceu: ");
+        int birthYear = entry.nextInt();
+        
+        System.out.print("Ano atual: ");
+        int currentYear = entry.nextInt();
 
-        boolean r2 = (!((20 % 4) == 1) || (9 != 9));
-        System.out.println("Resultado: " + r2);
-
-        boolean r3 = ((5 % 2)> 3);
-        System.out.println("Resultado: " + r3);
-
-        boolean r4 = ('a' == 'A');
-        System.out.println("Resultado: " + r4);
+        int age = currentYear - birthYear;
+        int ageIn2030 = 2030 - birthYear;
+        
+        System.out.println("Sua idade: " + age + " anos");
+        System.out.println("Em 2030 você terá: " + ageIn2030 + " anos");
+        entry.close();
     }
 }

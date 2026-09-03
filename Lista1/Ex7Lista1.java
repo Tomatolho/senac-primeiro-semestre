@@ -1,18 +1,18 @@
 //Thomas Altman Souza
 package Lista1;
 
-import java.util.Scanner;
-
 public class Ex7Lista1 {
-	public static void main(String[] args) {		
-		Scanner entry = new Scanner(System.in);
+    public static void main(String[] args) {
+        boolean r1 = ((120 - 30) == Math.pow(3.0,30.0)); 
+        System.out.println("Resultado: " + r1);
 
-		System.out.print("Insira um valor: ");
-		int n1 = entry.nextInt();
-		System.out.print("Insira outro valor: ");
-		int n2 = entry.nextInt();
-		
-		System.out.printf("%d x %d = %d%n", n1, n2, n1 * n2);
-		entry.close();
-	}
+        boolean r2 = (!((20 % 4) == 1) || (9 != 9));
+        System.out.println("Resultado: " + r2);
+
+        boolean r3 = ((5 % 2)> 3);
+        System.out.println("Resultado: " + r3);
+
+        boolean r4 = ('a' == 'A');
+        System.out.println("Resultado: " + r4);
+    }
 }
