@@ -10,8 +10,10 @@ public class jogo {
 
         if (points >= 1000) {
             System.out.println("Parabens! Você passou para a fase 2");
+        } else {
+            System.out.println("Você não atingiu a pontuação necessária");
         }
         System.out.println("Siga para a próxima etapa");
-    input.close();
+        input.close();
     }
 }
