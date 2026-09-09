@@ -1,5 +1,5 @@
 //Thomas Altman Souza
-package aula4;
+package aula3;
 
 public class Exemplo3A4 {
     public static void main(String[] args) {   

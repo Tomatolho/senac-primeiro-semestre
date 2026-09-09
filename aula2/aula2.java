@@ -1,8 +1,8 @@
-package Aula3;
+package aula2;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.Scanner;
 
-public class aula3 {
+public class aula2 {
     public static void main(String[] args) {
         Scanner entry = new Scanner(System.in);
 

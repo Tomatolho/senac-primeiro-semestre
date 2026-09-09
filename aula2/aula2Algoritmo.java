@@ -1,7 +1,7 @@
-package Aula3;
+package aula2;
 import java.util.Scanner;
 
-public class aula3Algoritmo {
+public class aula2Algoritmo {
     public static void main(String[] args){
         Scanner entry = new Scanner(System.in);
 
