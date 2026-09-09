@@ -2,7 +2,7 @@ package aula4;
 import java.util.Scanner;
 
 public class parImpar {
-    public static void main(Scanner[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Digite um valor: ");
