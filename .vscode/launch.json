@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex9",
+            "request": "launch",
+            "mainClass": "aula4.ex9",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
+            "name": "ex8",
+            "request": "launch",
+            "mainClass": "aula4.ex8",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
+            "name": "ex7",
+            "request": "launch",
+            "mainClass": "aula4.ex7",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
+            "name": "ex6",
+            "request": "launch",
+            "mainClass": "aula4.ex6",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
             "name": "ex5",
             "request": "launch",
             "mainClass": "aula4.ex5",
