@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex5",
+            "request": "launch",
+            "mainClass": "aula4.ex5",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
+            "name": "ex4",
+            "request": "launch",
+            "mainClass": "aula4.ex4",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
             "name": "parimpar",
             "request": "launch",
             "mainClass": "aula4.parimpar",

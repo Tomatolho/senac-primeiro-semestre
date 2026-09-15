@@ -12,6 +12,6 @@ public class adivinha {
             System.out.println("Parabens voce acertou! O número secreto era 15.");
             
         }
-
+        input.close();
     }
 }
