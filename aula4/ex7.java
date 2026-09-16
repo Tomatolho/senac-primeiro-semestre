@@ -10,7 +10,7 @@ public class ex7{
         System.out.print("Insira quantos anos de empresa: ");
         int anos = input.nextInt();
 
-        double bonus;
+        double bonus = 0;
 
         if (anos >= 5) {
             bonus = salario * 0.2;
