@@ -17,17 +17,17 @@ public class ex13 {
 
         if (operacao == '+') {
             double resultado = n1 + n2;
-            System.out.printf("%.2f + %.2f", n1, n2, resultado);
+            System.out.printf("%.2f + %.2f = %.2f", n1, n2, resultado);
         } else if (operacao == '-') {
             double resultado = n1 - n2;
-            System.out.printf("%.2f + %.2f", n1, n2, resultado);
+            System.out.printf("%.2f + %.2f = %.2f", n1, n2, resultado);
         } else if (operacao == '*') {
             double resultado = n1 * n2;
-            System.out.printf("%.2f + %.2f", n1, n2, resultado);
+            System.out.printf("%.2f + %.2f = %.2f", n1, n2, resultado);
         } else if (operacao == '/') {
             if (n2 > 0) {
                 double resultado = n1 / n2;
-                System.out.printf("%.2f / %.2f", n1, n2, resultado);
+                System.out.printf("%.2f / %.2f = %.2f", n1, n2, resultado);
             } else {
                 System.out.println("Impossível dividir!");
             }
