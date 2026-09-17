@@ -21,7 +21,6 @@ public class desafio {
             } else {
                 System.out.println("A pessoa não tem idade para votar");
             }
-
         } else {
             System.out.println("A pessoa não está apta a votar");
             System.out.println("Motivo: Necessário ter cidadania ativa e titulo eleitoral regularizado");
