@@ -26,7 +26,6 @@ public class desafio {
             System.out.println("A pessoa não está apta a votar");
             System.out.println("Motivo: Necessário ter cidadania ativa e titulo eleitoral regularizado");
         }
-
         input.close();
     }
 }
