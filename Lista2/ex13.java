@@ -34,7 +34,6 @@ public class ex13 {
         } else {
             System.out.println("Sinal Inválido");
         }
-
         input.close();
     }
 }
