@@ -2,7 +2,7 @@
 package Lista2;
 import java.util.Scanner;
 
-public class ex9 {
+public class Ex9Lista2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         

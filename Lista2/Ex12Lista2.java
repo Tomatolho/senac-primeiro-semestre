@@ -2,7 +2,7 @@
 package Lista2;
 import java.util.Scanner;
 
-public class ex12 {
+public class Ex12Lista2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

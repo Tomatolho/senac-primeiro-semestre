@@ -2,17 +2,18 @@
 package Lista2;
 import java.util.Scanner;
 
-public class ex1 {
+public class Ex5Lista2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
         System.out.print("Digite um número: ");
-        Double n = input.nextDouble();
-        
-        if (n > 20) {
-            n = n / 2;
+        int n = input.nextInt();
+
+        if (n >= 50 && n <= 100 ) {
+            System.out.println("Pertence ao intervalo");
+        } else {
+            System.out.println("Não pertence ao intervalo");
         }
-        System.out.print(n);
         input.close();
     }
 }
