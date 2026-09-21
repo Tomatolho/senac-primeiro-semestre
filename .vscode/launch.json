@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "aula2",
+            "request": "launch",
+            "mainClass": "aula2.aula2",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
             "name": "desafio",
             "request": "launch",
             "mainClass": "Lista2.desafio",

@@ -17,5 +17,6 @@ public class contador {
                 }
             contador++;
         }
+        input.close();
     }
 }
