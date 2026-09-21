@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex6Lista3",
+            "request": "launch",
+            "mainClass": "Lista3.Ex6Lista3",
+            "projectName": "senac-primeiro-semestre_1e057669"
+        },
+        {
+            "type": "java",
+            "name": "Ex5Lista2",
+            "request": "launch",
+            "mainClass": "Lista3.Ex5Lista2",
+            "projectName": "senac-primeiro-semestre_1e057669"
+        },
+        {
+            "type": "java",
+            "name": "Ex13Lista2",
+            "request": "launch",
+            "mainClass": "Lista2.Ex13Lista2",
+            "projectName": "senac-primeiro-semestre_1e057669"
+        },
+        {
+            "type": "java",
+            "name": "Ex4Lista3",
+            "request": "launch",
+            "mainClass": "Lista3.Ex4Lista3",
+            "projectName": "senac-primeiro-semestre_1e057669"
+        },
+        {
+            "type": "java",
+            "name": "Ex3Lista",
+            "request": "launch",
+            "mainClass": "Lista3.Ex3Lista",
+            "projectName": "senac-primeiro-semestre_1e057669"
+        },
+        {
+            "type": "java",
+            "name": "Ex2Lista3",
+            "request": "launch",
+            "mainClass": "Lista3.Ex2Lista3",
+            "projectName": "senac-primeiro-semestre_1e057669"
+        },
+        {
+            "type": "java",
             "name": "aula2",
             "request": "launch",
             "mainClass": "aula2.aula2",

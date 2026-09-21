@@ -1,3 +1,4 @@
+//Thomas Altman Souza
 package Lista3;
 import java.util.Scanner;
 
@@ -5,7 +6,7 @@ public class Ex1Lista3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Insira um número: ");
+        System.out.print("Insira um número de 1 a 7: ");
         int diaSemana = input.nextInt();
 
         switch(diaSemana) {
