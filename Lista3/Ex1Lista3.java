@@ -9,7 +9,6 @@ public class Ex1Lista3 {
         int diaSemana = input.nextInt();
 
         switch(diaSemana) {
-            
             case 1:
                 System.out.println("Domingo");
             break;
@@ -19,7 +18,7 @@ public class Ex1Lista3 {
             break;
 
             case 3:
-                System.out.printl("Terça-feira");
+                System.out.println("Terça-feira");
             break;
             
             case 4:
@@ -37,6 +36,10 @@ public class Ex1Lista3 {
             case 7:
                 System.out.println("Sábado");
             break;
+
+            default:
+                System.out.println("Número inválido!");       
         }
+        input.close();
     }
 }
