@@ -20,46 +20,46 @@ public class Ex6Lista3 {
         int qnt = input.nextInt();
 
         double preco = 0;
+        String nomeProduto = "";
         switch(id) {
             case 100:
-                preco = 1.2 * qnt;
-                System.out.println("Cachorro Quente");
-                System.out.printf("%d unidades - R$ %.2f", qnt, preco);
+                nomeProduto = "Cachorro Quente";
+                preco = 1.2;
             break;
 
             case 101:
-                preco = 1.3 * qnt;
-                System.out.println("Bauru Simples");
-                System.out.printf("%d unidades - R$ %.2f", qnt, preco);
+                nomeProduto = "Bauru Simples";
+                preco = 1.3;
             break;
 
             case 102:
-                preco = 1.5 * qnt;
-                System.out.println("Bauru com Ovo");
-                System.out.printf("%d unidades - R$ %.2f", qnt, preco);
+                nomeProduto = "Bauru com Ovo";
+                preco = 1.5;
             break;
 
             case 103:
-                preco = 1.2 * qnt;
-                System.out.println("Hambúrguer");
-                System.out.printf("%d unidades - R$ %.2f", qnt, preco);
+                nomeProduto = "Hambúrguer";
+                preco = 1.2;
             break;
 
             case 104:
-                preco = 1.3 * qnt;
-                System.out.println("Cheeseburguer");
-                System.out.printf("%d unidades - R$ %.2f", qnt, preco);
+                nomeProduto = "Cheeseburguer";
+                preco = 1.3;
             break;
 
             case 105:
-                preco = 1.0 * qnt;
-                System.out.println("Refrigerante");
-                System.out.printf("%d unidades - R$ %.2f", qnt, preco);
+                nomeProduto = "Refrigerante";
+                preco = 1.0;
             break;
 
             default:
                 System.out.println("Código do produto inválido!");
         }
+        
+        double precoTotal = preco * qnt;
+        
+        System.out.println(qnt + "x  " + nomeProduto);
+        System.out.printf("Valor a ser pago R$ %.2f", precoTotal);
         input.close();
     }
 }
