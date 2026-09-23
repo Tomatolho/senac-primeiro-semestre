@@ -14,5 +14,7 @@ public class Ex3Lista4 {
             n = Math.pow(2.0, i);
             i++;
         }
+        
+        input.close();
     }
 }
