@@ -1,6 +1,7 @@
 package aula5;
 import java.util.Scanner;
-public class contador {
+
+public class numPar {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -17,6 +18,7 @@ public class contador {
                 }
             contador++;
         }
+        
         input.close();
     }
 }

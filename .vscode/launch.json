@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex3Lista4",
+            "request": "launch",
+            "mainClass": "Lista4.Ex3Lista4",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
+            "name": "Ex4Lista4",
+            "request": "launch",
+            "mainClass": "aula5.Ex4Lista4",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
+            "name": "Ex2Lista4",
+            "request": "launch",
+            "mainClass": "Lista4.Ex2Lista4",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
             "name": "Ex6Lista3",
             "request": "launch",
             "mainClass": "Lista3.Ex6Lista3",
