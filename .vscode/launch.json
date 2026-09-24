@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SistemaAdega",
+            "request": "launch",
+            "mainClass": "projetoPI.SistemaAdega",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
+            "name": "SistemaAdega",
+            "request": "launch",
+            "mainClass": "SistemaAdega",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
             "name": "Ex3Lista4",
             "request": "launch",
             "mainClass": "Lista4.Ex3Lista4",
