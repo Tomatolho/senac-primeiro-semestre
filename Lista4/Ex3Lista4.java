@@ -9,12 +9,12 @@ public class Ex3Lista4 {
         int q = input.nextInt();
         int i = 1;
         double n = 1;
+        
         while (i <= q) {
             System.out.print(n + ", ");
             n = Math.pow(2.0, i);
             i++;
         }
-        
         input.close();
     }
 }

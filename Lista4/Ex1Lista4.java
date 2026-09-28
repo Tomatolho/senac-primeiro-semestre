@@ -6,7 +6,6 @@ public class Ex1Lista4 {
         int i = 100;
 
         while (i <= 200) {
-            
             System.out.println(i);
             i++;
         }

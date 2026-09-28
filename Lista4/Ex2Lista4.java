@@ -6,15 +6,13 @@ public class Ex2Lista4 {
         Scanner input = new Scanner(System.in);
         
         int i = 1;
-        int n;
-        int resto;
         int par = 0;
         int impar = 0;
 
         while(i <= 10) {
             System.out.println("Digite o " + i + "° número");
-            n = input.nextInt();
-            resto = n % 2;
+            int n = input.nextInt();
+            int resto = n % 2;
             if(resto == 0) {
                 par++;
             } else {
