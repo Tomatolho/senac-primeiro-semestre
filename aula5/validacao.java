@@ -16,6 +16,7 @@ public class validacao {
         }
     }while(nota < 0 || nota > 10);
     System.out.println("Nota valida registrada com sucesso " + nota);
+    
     input.close();
     }
 }
