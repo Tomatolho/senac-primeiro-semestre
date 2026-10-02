@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ex2Lista5",
+            "request": "launch",
+            "mainClass": "Ex2Lista5",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
+            "name": "Ex1Lista5",
+            "request": "launch",
+            "mainClass": "Ex1Lista5",
+            "projectName": "senac-primeiro-semestre_ad07b593"
+        },
+        {
+            "type": "java",
             "name": "Ex9Lista4",
             "request": "launch",
             "mainClass": "Lista4.Ex9Lista4",
