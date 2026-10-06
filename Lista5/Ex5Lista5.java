@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class Ex5Lista5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double media = 0;
-        double mediaTotal = 0;
-        int rep = 0;
-        int exa = 0;
-        int apr = 0;
+        
+        double media = 0, mediaTotal = 0;;
+        int rep = 0, exa = 0, apr = 0;
+
         for(int i = 1; i <= 6; i++) {
             double notasAluno = 0;
             for(int c = 1; c <= 2;) {

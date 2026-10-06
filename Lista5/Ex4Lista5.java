@@ -7,7 +7,6 @@ public class Ex4Lista5 {
         Scanner input = new Scanner(System.in);
 
         int age;
-        
         int c = 0;
         double totalHeight = 0;
 
