@@ -9,7 +9,7 @@ public class Ex6Lista5 {
         int c1 = 0, c2 = 0, c3 = 0, c4 = 0;
         int votoNulo = 0, votoBranco = 0;
         
-        for(int i = 1; i <= 10; i++){
+        for(int i = 1; i <= 10; i++) {
             System.out.print("Insira o voto: ");
             int voto = input.nextInt();
             switch(voto) {
